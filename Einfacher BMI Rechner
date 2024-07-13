@@ -1,0 +1,29 @@
+# Einfacher BMI-Rechner
+######################################################################################################################################################################################################################
+
+# Eingabe des Gewichts in Kilogramm
+gewicht = float(input("Bitte geben Sie Ihr Gewicht in Kilogramm ein: "))
+
+# Eingabe der Größe in Metern
+groesse = float(input("Bitte geben Sie Ihre Größe in Metern ein: "))
+
+# Berechnung des BMI (Body Mass Index)
+bmi = gewicht / (groesse ** 2)
+
+# Ausgabe des BMI auf zwei Dezimalstellen gerundet
+print("Ihr BMI beträgt: {:.2f}".format(bmi))
+
+# Interpretation des BMI
+if bmi < 18.5:
+    print("Untergewicht")
+elif bmi < 25:
+    print("Normalgewicht")
+elif bmi < 30:
+    print("Übergewicht")
+else:
+    print("Adipositas (Fettleibigkeit)")
+
+#####################################################################################################################################################################################################################
+
+# Hinweis für den Benutzer
+print("Dieses Programm wurde von einem Anfänger in Python geschrieben.")
