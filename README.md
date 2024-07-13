@@ -1,4 +1,4 @@
----Ein Ganz einfach BMI-Rechner, Rohdatei---
+---Ein anz einfacher BMI-Rechner, Rohdatei---
 
 Der Benutzer wird aufgefordert, sein Gewicht in Kilogramm und seine Größe in Metern einzugeben. 
 Der BMI wird berechnet, indem das Gewicht des Benutzers durch das Quadrat seiner Größe geteilt wird.
